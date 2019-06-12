@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Twitter Input Form</title>
+	<link rel="stylesheet" type="text/css" href="static/css/style.css">
+	<style>
+	p{
+		font-family: "Times New Roman", Times, serif;
+	}
+	</style>
+</head>
+<body>
+	<p style="text-align:center;"><font size="7" color="white">Welcome to Sentiment Analysis</font></p>
+	<div class="box">
+		<h1>Search</h1>
+		<form action="http://localhost:5000/printSentiment" method="POST">
+			<input type="text" name="query" placeholder="Type...">
+			<input type="submit" name="" value="Search">
+			<br><br>
+
+		</form>
+		
+	</div>
+
+</body>
+</html>
